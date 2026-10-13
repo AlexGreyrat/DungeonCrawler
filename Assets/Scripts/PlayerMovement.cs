@@ -4,7 +4,11 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float Velocidad = 5f;
+    public float gravedad = -10f;
+
     private CharacterController chController;
+    private float verticalVelocity;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,22 +19,24 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         Move();
-
     }
 
     private void Move()
     {
-        //input
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
         Vector3 input = new Vector3(horizontal, 0, vertical);
         input = Vector3.ClampMagnitude(input, 1f);
 
-        //4Calcular la veocidad
         Vector3 targetVelocity = input * Velocidad;
+        if (chController.isGrounded && verticalVelocity < 0)
+        {
+            verticalVelocity = -2f;
+        }
 
-        //6
+        verticalVelocity += gravedad * Time.deltaTime;
+        targetVelocity.y = verticalVelocity;
         chController.Move(targetVelocity * Time.deltaTime);
     }
 
