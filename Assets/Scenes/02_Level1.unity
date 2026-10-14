@@ -309,7 +309,7 @@ PrefabInstance:
       objectReference: {fileID: 1658058343}
     - target: {fileID: 6839144321874041816, guid: 4711391ee82fc9142beb6a192a7c7062, type: 3}
       propertyPath: m_Name
-      value: Pilar_2
+      value: Pillar_2
       objectReference: {fileID: 0}
     - target: {fileID: 7670501776035084838, guid: 4711391ee82fc9142beb6a192a7c7062, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1229,7 +1229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 220621457}
   m_Layer: 0
-  m_Name: Puente
+  m_Name: Bridges
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2667,7 +2667,7 @@ GameObject:
   m_Component:
   - component: {fileID: 330975739}
   m_Layer: 0
-  m_Name: Suelos
+  m_Name: Floors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7384,7 +7384,7 @@ PrefabInstance:
       objectReference: {fileID: 1257458828}
     - target: {fileID: 6839144321874041816, guid: 4711391ee82fc9142beb6a192a7c7062, type: 3}
       propertyPath: m_Name
-      value: Pilar_5
+      value: Pillar_5
       objectReference: {fileID: 0}
     - target: {fileID: 7670501776035084838, guid: 4711391ee82fc9142beb6a192a7c7062, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8381,7 +8381,7 @@ PrefabInstance:
       objectReference: {fileID: 2055852408}
     - target: {fileID: 6839144321874041816, guid: 4711391ee82fc9142beb6a192a7c7062, type: 3}
       propertyPath: m_Name
-      value: Pilar_4
+      value: Pillar_4
       objectReference: {fileID: 0}
     - target: {fileID: 7670501776035084838, guid: 4711391ee82fc9142beb6a192a7c7062, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9316,7 +9316,7 @@ PrefabInstance:
       objectReference: {fileID: 804547125}
     - target: {fileID: 6839144321874041816, guid: 4711391ee82fc9142beb6a192a7c7062, type: 3}
       propertyPath: m_Name
-      value: Pilar_3
+      value: Pillar_3
       objectReference: {fileID: 0}
     - target: {fileID: 7670501776035084838, guid: 4711391ee82fc9142beb6a192a7c7062, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11831,7 +11831,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1761926416}
   m_Layer: 0
-  m_Name: Paredes
+  m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12075,7 +12075,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1781837626}
   m_Layer: 0
-  m_Name: Decoracion
+  m_Name: Decoration
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12126,7 +12126,7 @@ PrefabInstance:
       objectReference: {fileID: 1964616139}
     - target: {fileID: 6839144321874041816, guid: 4711391ee82fc9142beb6a192a7c7062, type: 3}
       propertyPath: m_Name
-      value: Pilar
+      value: Pillar_6
       objectReference: {fileID: 0}
     - target: {fileID: 7670501776035084838, guid: 4711391ee82fc9142beb6a192a7c7062, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12367,7 +12367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1836177794}
   m_Layer: 0
-  m_Name: Escaleras
+  m_Name: Stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13783,7 +13783,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2037319145}
   m_Layer: 0
-  m_Name: Puerta
+  m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14912,7 +14912,7 @@ PrefabInstance:
       objectReference: {fileID: 398106257}
     - target: {fileID: 6839144321874041816, guid: 4711391ee82fc9142beb6a192a7c7062, type: 3}
       propertyPath: m_Name
-      value: Pilar
+      value: Pillar
       objectReference: {fileID: 0}
     - target: {fileID: 7670501776035084838, guid: 4711391ee82fc9142beb6a192a7c7062, type: 3}
       propertyPath: m_LocalPosition.x
